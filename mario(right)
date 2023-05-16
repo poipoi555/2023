@@ -11,8 +11,10 @@ int main(void)
     while (height < 1 || height > 8);
 
 
+    // height of pyramid
     for (int i = 0; i < height; i++)
     {
+      // breadth of pyramid
       for (int j = 0; j < height; j++)
       {
         if (i+j < height-1)
